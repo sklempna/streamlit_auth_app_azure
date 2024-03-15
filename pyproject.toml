@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "streamlit-auth-app-azure"
+version = "0.1.0"
+description = ""
+authors = ["stefan k <stefan.klempnauer@persona.de>"]
+readme = "README.md"
+packages = [{include = "streamlit_auth_app_azure"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.32.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
