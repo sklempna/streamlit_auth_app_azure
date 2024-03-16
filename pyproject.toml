@@ -9,6 +9,7 @@ packages = [{include = "streamlit_auth_app_azure"}]
 [tool.poetry.dependencies]
 python = "^3.11"
 streamlit = "^1.32.2"
+django = "^5.0.3"
 
 
 [build-system]
